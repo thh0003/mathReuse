@@ -1,0 +1,27 @@
+{
+  "name": "mathreuse",
+  "version": "1.0.0",
+  "description": "Reusable Math Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thh0003/mathReuse.git"
+  },
+  "author": "Trevor Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thh0003/mathReuse/issues"
+  },
+  "homepage": "https://github.com/thh0003/mathReuse#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
