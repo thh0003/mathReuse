@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MathReuse Library Examples</title>
+    <script type="module" src="main.js">
+    </script>
+    <script>
+
+      console.log(MathRe.add(1,2));
+      
+      function ADD(){
+        let num1 = getElementById('addInput1').value;
+        let num2 = getElementById('addInput2').value;
+        let ans = mathRe.add(num1,num2);
+        getElementById('addResult').innerHTML= ans;
+      }
+
+    </script>
+  </head>
+  <body>
+    <div id="MathReuse">
+      <h1>MathReuse Javascript Library</h1>
+      <p>The MathReuse library provides the following math functions. Addition, Subtraction, Multiply, Division, Exponent, Square Root, and Base Conversion.  Its functions are described below</p>
+      <table>
+        <form>
+          <tr>
+            <th>Operator</th>
+            <th>Operand 1</th>
+            <th>Operand 2</th>
+            <th>Action</th>
+            <th>Result</th>
+          </tr>
+          <tr>
+            <td>Addition</td>
+            <td><input type="text" id="addInput1" value="6"></td>
+            <td><input type="text" id="addInput2" value="3"></td>
+            <td><input type="button" id="addAction" value="Add" onclick="javascript:ADD()"></td>
+            <td id="addResult"></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+  </body>
+</html>
