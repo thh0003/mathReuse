@@ -1,6 +1,7 @@
 
-import { expect } from 'chai';
+import {expect} from 'chai';
 import MathReuse from "../src/math";
+
 const mathRe = new MathReuse;
 let numbers5 = [5,5,5,5]; //addition = 20, subtract = -10 , multiplication = 625
 let numbers_null = [];

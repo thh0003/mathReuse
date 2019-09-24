@@ -1,4 +1,4 @@
-import MathReuse from '../src/math.js';
+import MathReuse from '../../../src/math.js';
 
 let mathRe = new MathReuse;
 let addBtn = document.querySelector("#addAction");
