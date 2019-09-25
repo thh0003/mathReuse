@@ -17,7 +17,7 @@ I also provided an ES5 compatible build using Babel v7 which is located in the "
 4. examples/ES6/browsers-client/index.html - ES6 Browser/Client Example
 5. examples/ES6/browsers-client/main.js - ES6 Browser/Client Example
 6. examples/ES6/node-server/app.js - ES6 NodeJS file which calls the class library
-7. examples/ES6/node-server/start.js - ES6 NodeJS file which runs the app through the Babel Register (I know this is not ideal, but I didn't want to rename the js file to mjs and cause confustion)
+7. examples/ES6/node-server/start.js - ES6 NodeJS file which runs the app through the Babel Register (I know this is not ideal, but I didn't want to rename the js file to mjs and cause confusion)
 8. node_modules - NodeJS dependency modules (don't change these)
 9. src/math.js - Actual Class file - Source of Truth
 10. test/mathSpec.js - Mocha Chai Unit test file - run from terminal with command "npm test"
