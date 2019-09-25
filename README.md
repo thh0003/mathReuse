@@ -26,7 +26,7 @@ I also provided an ES5 compatible build using Babel v7 which is located in the "
 
 #### General Note on Javascript Numbers.  
 
-Unlike many other programming languages, JavaScript does not define different types of numbers, like integers, short, long, floating-point etc. JavaScript numbers are always stored as double precision floating point numbers, following the international IEEE 754 standard. This format stores numbers in 64 bits, where the number (the fraction) is stored in bits 0 to 51, the exponent in bits 52 to 62, and the sign in bit 63:
+> Unlike many other programming languages, JavaScript does not define different types of numbers, like integers, short, long, floating-point etc. JavaScript numbers are always stored as double precision floating point numbers, following the international IEEE 754 standard. This format stores numbers in 64 bits, where the number (the fraction) is stored in bits 0 to 51, the exponent in bits 52 to 62, and the sign in bit 63:
 
 #### Class Functions
 1. add (num1, num2) - takes 2 numbers and returns their sum
@@ -47,7 +47,7 @@ Unlike many other programming languages, JavaScript does not define different ty
 
         - Because you are using the module type, the scope of the script is contained to your local javascript script tag or file.  Not Javascripts "Global" scope as in ES5.  So any listeners/mutations of the DOM need to be made within your script tag or JS file.
         - Use import MathReuse from '../src/math.js' to import the class into your script tag or JS file
-    -Node.js - I have included an example of using the Class in the folder examples->ES6->node-server
+    - Node.js - I have included an example of using the Class in the folder examples->ES6->node-server
         - As you can see in the package.json you will need to install (@babel/core,@babel/preset-env,@babel/register)
         - Create a JS file which requires your application to start using @babel/register.
         - To start the example run  "node ./examples/ES6/node-server/start.js" from the root folder
@@ -64,10 +64,3 @@ Unlike many other programming languages, JavaScript does not define different ty
     - You should then be able to run the example node files
       - ES5: node ./examples/ES5/node-server/app.js
       - ES6: node ./examples/ES6/node-server/start.js
-
-
-
-
-
-
- 
