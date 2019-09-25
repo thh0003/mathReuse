@@ -32,7 +32,7 @@ I also provided an ES5 compatible build using Babel v7 which is located in the "
 1. add (num1, num2) - takes 2 numbers and returns their sum
 2. multiply (num1, num2) - takes 2 numbers and returns their product
 3. subtract (num1, num2) - takes 2 numbers and returns their difference of num1 - num2
-4. divide (numerator=0, denominator=0) takes 2 numbers numberator and denominator and returns a quotient
+4. divide (numerator=0, denominator=0) takes 2 numbers numerator and denominator and returns a quotient
 5. exp (base=0, factor=0) - takes a base and a factor and returns product
 6. sqrroot(radicand) - takes a nonnegative real number (radicand) and returns its principal square root
 7. toBaseX(number,base=10) - takes a number and returns a string converted to the designated base.  Javascript only has one Number "type".
