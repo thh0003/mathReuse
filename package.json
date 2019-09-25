@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Reusable Math Library",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha --require @babel/register 'test/**Spec.js'",
     "build": "babel src/math.js -o build/math.js"
